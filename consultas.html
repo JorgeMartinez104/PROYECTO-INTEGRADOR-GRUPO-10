@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Grupo 10">
+    <meta name="description" content="CHARLY Tours">
+    <meta name="keywords" content="CHARLY Tours, turismo, agencia de viajes">
+    <title>CHARLY Tours | Agencia de viajes</title>
+    <link rel="icon" href="media/icono.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styleconsultas.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <img src="media/logo.png" width="100" alt="Logo de la página web">
+      <h2>CHARLY Tours</h2>
+    </nav>
+  </header>
+
+    <!--averiguar si esta bien la parte del mail-->
+    <form action="https://mailthis.to/inventado@gmail.com" method="POST">
+        <fieldset>
+          <h1>¡Dejanos tu consulta!</h1>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" placeholder="*campo obligatorio" required>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" placeholder="*campo obligatorio" required>
+          <label for="mail">Correo electrónico:</label>
+          <input type="email" name="email" id="mail" placeholder="*campo obligatorio" required>
+          <label for="telefono">Telefono:</label>
+          <input type="tel" name="telefono" id="telefono" placeholder="*campo obligatorio" required>
+          
+          <label>Que provincia quieres conocer:</label>
+          <select name="job">
+              <option value="bs-as">Buenos Aires</option>"
+              <option value="mza">Mendoza</option>"
+              <option value="cba">Cordoba</option>"
+              <option value="t-fuego">Tierra del Fuego</option>"
+              <option value="ms">Misiones</option>
+              <option value="st">Salta</option>
+              <option value="cht">Chubut</option>
+              <option value="sc">Santa Cruz</option>
+          </select>
+          
+          <label for="consulta">¿En que podemos ayudarte?</label>
+          <textarea name="comentario" id="consulta"></textarea>
+
+        </fieldset>
+    
+        <button type="reset">LIMPIAR</button>
+        <button type="submit">ENVIAR</button>
+      </form>
+
+</body>
+</html>
