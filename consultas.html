@@ -28,7 +28,7 @@
   </header>
 
     <!--averiguar si esta bien la parte del mail-->
-    <form action="https://mailthis.to/inventado@gmail.com" method="POST">
+    <form action="mailto:martinezj1975@gmail.com" method="post" enctype="text/plain">
         <fieldset>
           <h1>¡Dejanos tu consulta!</h1>
           <label for="nombre">Nombre:</label>
@@ -52,6 +52,15 @@
               <option value="sc">Santa Cruz</option>
           </select>
           
+          <label>Como prefieres viajar:</label>
+            <input type="radio" name="transporte" value="avión">
+            <label for="transporte">En avión</label><br>
+            <input type="radio" name="transporte" value="omnibus">
+            <label for="transporte">En omnibus</label><br>
+            <input type="radio" name="transporte" value="indistinto">
+            <label for="transporte">Me es indistinto</label>
+            <hr>
+
           <label for="consulta">¿En que podemos ayudarte?</label>
           <textarea name="comentario" id="consulta"></textarea>
 
