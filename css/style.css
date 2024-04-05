@@ -10,7 +10,7 @@ body {
 
 /*index.html - main*/
 #slogan {
-	background-image: url('../media/fondo.png');
+	background-image: url('../media/images/fondo.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
