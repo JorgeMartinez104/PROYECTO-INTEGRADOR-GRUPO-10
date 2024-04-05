@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle1}</p>
       </div>
+
       <div class="activity">
         <h3 class="activityTitle">${provinciaSeleccionada.descripcion2}</h3>
         <div>
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle2}</p>
       </div>
+
       <div class="activity">
         <h3 class="activityTitle">${provinciaSeleccionada.descripcion3}</h3>
         <div>
@@ -41,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle3}</p>
       </div>
+
       <div class="activity">
         <h3 class="activityTitle">${provinciaSeleccionada.descripcion4}</h3>
         <div>
@@ -48,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle4}</p>
       </div>
+      
       <div class="activity">
       <h4 class="activityPrice">Valor: ${provinciaSeleccionada.precio} USD</h4>
       </div>
