@@ -6,7 +6,6 @@ fetch('/db/provincias.json')
 		// document.addEventListener("DOMContentLoaded", () => {
 		const gridProvincias = document.getElementById('grid-provincias');
 		const datosProvincias = JSON.parse(localStorage.getItem('provincias'));
-		console.log(datosProvincias);
 		if (datosProvincias) {
 			datosProvincias.provincias.forEach((provincia) => {
 				//   1.- Se crea un elemento <div> para cada provincia
@@ -29,5 +28,5 @@ fetch('/db/provincias.json')
 
 function mostrarDetallesProvincia(provincia) {
 	//Redireccionar a otra página para mostrar los detalles
-	window.location.href = `provincia.html?id=${provincia.id}`;
+	window.location.href = `pages/provincia.html?id=${provincia.id}`;
 }
