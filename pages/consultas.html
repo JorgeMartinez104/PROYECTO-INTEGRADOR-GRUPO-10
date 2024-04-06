@@ -107,42 +107,52 @@
 				class="queriesForm"
 				action="https://mailthis.to/inventado@gmail.com"
 				method="POST"
+				id="form"
 			>
 				<fieldset>
 					<h2 id="formTitle">¡Dejanos tu consulta!</h2>
-					<label for="nombre">Nombre:</label>
-					<input
-						type="text"
-						name="nombre"
-						id="nombre"
-						placeholder="*campo obligatorio"
-						required
-					/>
-					<label for="apellido">Apellido:</label>
-					<input
-						type="text"
-						name="apellido"
-						id="apellido"
-						placeholder="*campo obligatorio"
-						required
-					/>
-					<label for="mail">Correo electrónico:</label>
-					<input
-						type="email"
-						name="email"
-						id="mail"
-						placeholder="*campo obligatorio"
-						required
-					/>
-					<label for="telefono">Telefono:</label>
-					<input
-						type="tel"
-						name="telefono"
-						id="telefono"
-						placeholder="*campo obligatorio"
-						required
-					/>
-
+					<div class="form-input nombre">
+						<label for="nombre">Nombre:</label>
+						<input
+							type="text"
+							name="nombre"
+							id="nombre"
+							placeholder="*campo obligatorio"
+							
+						/>
+						<p class="messError"></p>
+					</div>
+					<div class="form-input apellido">
+						<label for="apellido">Apellido:</label>
+						<input
+							type="text"
+							name="apellido"
+							id="apellido"
+							placeholder="*campo obligatorio"
+						/>
+						<p class="messError"></p>
+					</div>
+					<div class="form-input telefono">
+						<label for="telefono">Telefono:</label>
+						<input
+							type="tel"
+							name="telefono"
+							id="telefono"
+							placeholder="*campo obligatorio"
+							
+						/>
+						<p class="messError"></p>
+					</div>
+					<div class="form-input mail">
+						<label for="mail">Correo electrónico:</label>
+						<input
+							type="email"
+							name="email"
+							id="mail"
+							placeholder="*campo obligatorio"
+						/>
+						<p class="messError"></p>
+					</div>
 					<label>Que provincia quieres conocer:</label>
 					<select name="job">
 						<option value="bs-as">Buenos Aires</option>
@@ -160,7 +170,7 @@
 					</select>
 
 					<label for="transporte">Como prefieres viajar:</label>
-            			<input type="radio" name="transporte" value="avión">
+            			<input type="radio" name="transporte" value="avión" checked>
 						<label for="transporte">En avión</label><br>
 						<input type="radio" name="transporte" value="omnibus">
 						<label for="transporte">En omnibus</label><br>
@@ -173,7 +183,7 @@
 				</fieldset>
 
 				<button type="submit">ENVIAR</button>
-				<button type="reset">LIMPIAR</button>
+				<button type="reset" id="btn-clear">LIMPIAR</button>
 			</form>
 		</main>
 
