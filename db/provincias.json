@@ -18,7 +18,7 @@
 			"descripcion4": "Día de Campo",
 			"imagen4": "../media/images/Bs.As/dia-de-campo.png",
 			"detalle4": "En el municipio de Cañuelas, ubicado unos de 70 kilómetros de la Ciudad de Buenos Aires, se encuentra la exclusiva Estancia Pampas del Sur. De 30 hectáreas, posee una amplia piscina, una plaza de juegos infantiles, algunas canchas de pin pong, fútbol y vóley. También cuenta con una huerta orgánica, un salón de estar con chimenea a leña, una televisión y una biblioteca. Y además posee Wi-Fi para quienes deseen y precisen seguir conectados.",
-			"imagen": "../media/images/Bs.As/BsAs.png",
+			"imagen": "./media/images/Bs.As/BsAs.png",
 			"precio": 100
 		},
 		{
@@ -36,7 +36,7 @@
 			"descripcion4": "Visita y degustación en bodegas",
 			"imagen4": "../media/images/Mendoza/bodega.png",
 			"detalle4": "El recorrido consta de un paseo por los viñedos, la Bodega y el Museo del Vino. El mismo contiene más de 5000 piezas originales que datan de siglo XVI en adelante. Con el tiempo se ha convertido en un emblema de toda la industria vitivinícola nacional. Degustación de la Línea Museo, Varietales: Malbec, Cabernet Sauvignon y Chardonnay.",
-			"imagen": "../media/images/Mendoza/Mendoza.png",
+			"imagen": "./media/images/Mendoza/Mendoza.png",
 			"precio": 100
 		},
 		{
@@ -54,7 +54,7 @@
 			"descripcion4": "Embalse",
 			"imagen4": "../media/images/Cordoba/embalse.png",
 			"detalle4": "Enmarcada en el pintoresco Valle de Calamuchita, Embalse cuenta con el lago más grande la provincia de Córdoba. Relax, naturaleza y diversión son los platos fuertes de un destino con tantos paisajes como propuestas a descubrir. La localidad de Embalse está ubicada a 100 kilómetros hacia el sur de la capital provincial. Su nombre e identidad se originan en la construcción del “mayor espejo de agua” de la provincia: un enorme dique 50 metros de alto y 360 metros de largo.",
-			"imagen": "../media/images/Cordoba/Cordoba.png",
+			"imagen": "./media/images/Cordoba/Cordoba.png",
 			"precio": 100
 		},
 		{
@@ -72,7 +72,7 @@
 			"descripcion4": "Río Grande",
 			"imagen4": "../media/images/Tierra_del_Fuego/Rio-Grande.png",
 			"detalle4": "El paisaje de estepa, bosques de transición, mar y río rodean la ciudad. Reconocida como “la Capital Internacional de la Trucha”, es apreciada por los aficionados de la pesca deportiva debido a la gran calidad y número de truchas que habitan su río.",
-			"imagen": "../media/images/Tierra_del_Fuego/Tierra-del-Fuego.png",
+			"imagen": "./media/images/Tierra_del_Fuego/Tierra-del-Fuego.png",
 			"precio": 100
 		},
 		{
@@ -90,7 +90,7 @@
 			"descripcion4": "Parque de las aves",
 			"imagen4": "../media/images/Misiones/parque-de-las-aves.png",
 			"detalle4": "Durante la visita guiada conocerá las historias que cada animal tiene para contar. Los recintos donde habitan sus huéspedes conservan la vegetación del lugar, ofreciendo a los animales que no pueden ser liberados la posibilidad de vivir en las mejores condiciones posibles.",
-			"imagen": "../media/images/Misiones/Misiones.png",
+			"imagen": "./media/images/Misiones/Misiones.png",
 			"precio": 100
 		},
 		{
@@ -108,7 +108,7 @@
 			"descripcion4": "Quebrada de Humahuaca",
 			"imagen4": "../media/images/Salta/quebrada-de-humahuaca.png",
 			"detalle4": "La Quebrada de Humahuaca es la combinación perfecta entre paisaje espectacular y riqueza arqueológica. Al llegar uno se siente que ha entrado realmente al continente americano.",
-			"imagen": "../media/images/Salta/Salta.png",
+			"imagen": "./media/images/Salta/Salta.png",
 			"precio": 100
 		},
 		{
@@ -126,7 +126,7 @@
 			"descripcion4": "Esquel",
 			"imagen4": "../media/images/Chubut/esquel.png",
 			"detalle4": "Alrededor de Esquel, cerros y valles te invitan a recorrerlos como los antiguos pioneros, con verdaderos guías baqueanos. El Glaciar Torrecillas te espera en el corazón del Parque Nacional Los Alerces. Navegación y trekking se combinan en esta salida fantástica.",
-			"imagen": "../media/images/Chubut/Chubut.png",
+			"imagen": "./media/images/Chubut/Chubut.png",
 			"precio": 100
 		},
 		{
@@ -144,7 +144,7 @@
 			"descripcion4": "La cueva de las manos",
 			"imagen4": "../media/images/Santa_Cruz/cueva-de-las-manos.png",
 			"detalle4": "Para quienes gustan de la arqueología este lugar es uno de los máximos exponentes de toda la Argentina ya que en sus paredes existen más de 800 pinturas de escenas de caza, animales, figuras geométricas y manos realizadas sobre la roca por habitantes del lugar hace aproximadamente 14 mil años a.C.  La cueva fue descubierta en el año 1876 por Francisco Moreno y pertenecen a la cultura tehuelche.",
-			"imagen": "../media/images/Santa_Cruz/Santa-Cruz.png",
+			"imagen": "./media/images/Santa_Cruz/Santa-Cruz.png",
 			"precio": 100
 		}
 	],

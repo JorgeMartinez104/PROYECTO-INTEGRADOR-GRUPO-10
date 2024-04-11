@@ -1,4 +1,4 @@
-fetch('/db/provincias.json')
+fetch('./db/provincias.json')
 	.then((respuesta) => respuesta.json())
 	.then((datos) => {
 		localStorage.setItem('provincias', JSON.stringify(datos));
