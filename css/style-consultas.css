@@ -22,6 +22,7 @@ form.queriesForm {
 form.queriesForm input[type='text'],
 form.queriesForm input[type='email'],
 form.queriesForm input[type='tel'],
+form.queriesForm input[type='date'],
 form.queriesForm textarea,
 form.queriesForm select {
 	border: 1px solid #181823;
@@ -38,7 +39,7 @@ form.queriesForm select {
 }
 
 form.queriesForm input[type='radio'] {
-	margin: 0 4px 8px 0;
+	margin: 0 4px 8px 16px; /*cambio*/
 }
 
 form.queriesForm select {
@@ -91,6 +92,7 @@ form.queriesForm label {
 form.queriesForm input[type='radio'] + label {
 	font-weight: 300;
 	display: inline-block;
+	margin-left: 4px;
 }
 
 form.queriesForm input:focus {
