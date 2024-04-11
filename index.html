@@ -9,19 +9,25 @@
 			content="CHARLY Tours, turismo, agencia de viajes"
 		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>CHARLY Tours | Agencia de viajes</title>
+
+		<!-- favicon -->
 		<link rel="icon" href="media/images/icono.png" type="image/x-icon" />
-		<link rel="stylesheet" href="css/style.css" />
+		<!-- bootstrap -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<!-- font-awesome -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
 		/>
+		<!-- hojas de estilos propias -->
+		<link rel="stylesheet" href="css/style.css" />
+		<title>CHARLY Tours | Agencia de viajes | Inicio</title>
+
 	</head>
 
 	<body>
@@ -49,7 +55,8 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbar-toggler">
-						<!-- navegación por páginas -->
+
+						<!-- links a páginas -->
 						<ul class="navbar-nav d-flex justify-content-center">
 							<li class="nav-item">
 								<a class="nav-link" href="#">Inicio</a>
@@ -57,6 +64,11 @@
 							<li class="nav-item">
 								<a class="nav-link" href="/pages/consultas.html"
 									>Dejanos tu consulta</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/pages/quienes-somos.html"
+									>Quienes somos</a
 								>
 							</li>
 							<li class="nav-item">
@@ -85,7 +97,6 @@
 			</nav>
 		</header>
 
-		<!--El main que contiene a las provincias-->
 		<main>
 			<h1 id="slogan">
 				Descubre la magia de Argentina con nosotros. Una experiencia
@@ -93,7 +104,7 @@
 				Viajamos Codo a Codo con vos...
 			</h1>
 			<div class="grid-container" id="grid-provincias">
-				<!-- El contenido con todas las provincias que viene de script.js-->
+				<!-- Aquí se renderiza el listado de las provincias que se obtiene desde script.js-->
 			</div>
 		</main>
 
@@ -117,9 +128,10 @@
 			<div>
 				<h4>Casa Central</h4>
 				<iframe
+					class="googleMap"
+					title="ubicacion"
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3605690550685!2d-58.384086924215154!3d-34.59504279725591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83bebe54bb%3A0x1ef9d769e184f2d5!2sSecretar%C3%ADa%20de%20Tur%C3%ADsmo%20de%20la%20Naci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1711275378178!5m2!1ses-419!2sar"
-					width="250"
-					height="150"
+
 					style="border: 0"
 					allowfullscreen=""
 					loading="lazy"
@@ -136,8 +148,11 @@
 			</div>
 		</footer>
 
+		<!-- render lista de provincias -->
 		<script src="js/script.js"></script>
+		<!-- formulario de registro -->
 		<script src="js/scriptForm.js"></script>
+		<!-- bootstrap -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
