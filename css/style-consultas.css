@@ -18,6 +18,10 @@ form.queriesForm {
 	text-align: center;
 }
 
+form.queriesForm fieldset {
+	padding: 1rem;
+}
+
 form.queriesForm input[type='text'],
 form.queriesForm input[type='email'],
 form.queriesForm input[type='tel'],
@@ -28,17 +32,17 @@ form.queriesForm select {
 	border-radius: 5px;
 	font-size: 16px;
 	height: auto;
-	margin: 0 1rem;
+	margin: 1rem auto;
 	padding: 1rem;
 	width: 95%;
 	background-color: #eff5f5;
 	color: #181823;
-	box-shadow: #181823 inset;
+	box-shadow: 1px 1px 3px #181823;
 	margin-bottom: 30px;
 }
 
 form.queriesForm input[type='radio'] {
-	margin: 0 4px 8px 16px; /*cambio*/
+	margin: 0 4px 8px 16px;
 }
 
 form.queriesForm select {

@@ -67,6 +67,7 @@ main {
 	background-color: rgba(240, 217, 188, 0.548);
 	padding: 1.5rem 1rem;
 	border-radius: 8px;
+	margin: 0 auto;
 }
 
 .testimonials-card-image {

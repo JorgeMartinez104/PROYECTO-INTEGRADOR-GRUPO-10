@@ -1,7 +1,7 @@
 /*provincia.html - main*/
 .buttonsBack-Up {
 	display: flex;
-	justify-content: start;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin: 2rem;
 }
