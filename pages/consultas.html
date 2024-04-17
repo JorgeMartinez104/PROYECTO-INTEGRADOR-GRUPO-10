@@ -112,44 +112,64 @@
 				class="queriesForm"
 				action="https://mailthis.to/inventado@gmail.com"
 				method="POST"
+				id="formContact"
 			>
 				<fieldset>
 					<h2 id="formTitle">¡Dejanos tu consulta!</h2>
-					<label for="nombre">Nombre:</label>
-					<input
-						type="text"
-						name="nombre"
-						id="nombre"
-						placeholder="*campo obligatorio"
-						required
-					/>
-					<label for="apellido">Apellido:</label>
-					<input
-						type="text"
-						name="apellido"
-						id="apellido"
-						placeholder="*campo obligatorio"
-						required
-					/>
-					<label for="mail">Correo electrónico:</label>
-					<input
-						type="email"
-						name="email"
-						id="mail"
-						placeholder="*campo obligatorio"
-						required
-					/>
-					<label for="telefono">Telefono:</label>
-					<input
-						type="tel"
-						name="telefono"
-						id="telefono"
-						placeholder="*campo obligatorio"
-						required
-					/>
-
+					<div class="groupFormContact" id="groupName">
+						<label for="nombre" class="formLabelContact">Nombre:</label>
+						<div class="groupInputContact">
+							<input
+							class="formInputContact"
+							type="text"
+							name="nombre"
+							id="nombre"
+							placeholder="*campo obligatorio"
+							/>
+						</div>
+						<p class="formInputContact-error"></p>
+					</div>
+					<div class="groupFormContact" id="groupLastname">
+						<label for="apellido" class="formLabelContact">Apellido:</label>
+						<div class="groupInputContact">				
+							<input
+								class="formInputContact"
+								type="text"
+								name="apellido"
+								id="apellido"
+								placeholder="*campo obligatorio"
+							/>
+						</div>	
+						<p class="formInputContact-error"></p>			
+					</div>
+					<div class="groupFormContact" id="groupEmail">
+						<label for="mail" class="formLabelContact">Correo electrónico:</label>
+						<div class="groupInputContact">	
+							<input
+								class="formInputContact"
+								type="email"
+								name="mail"
+								id="mail"
+								placeholder="*campo obligatorio"
+							/>
+						</div>
+						<p class="formInputContact-error"></p>						
+					</div>
+					<div class="groupFormContact" id="groupPhone">
+						<label for="telefono" class="formLabelContact">Teléfono:</label>
+						<div class="groupInputContact">	
+							<input
+								class="formInputContact"
+								type="tel"
+								name="telefono"
+								id="telefono"
+								placeholder="*campo obligatorio"
+							/>
+						</div>
+						<p class="formInputContact-error"></p>	
+					</div>
 					<label>Que provincia quieres conocer:</label>
-					<select name="job">
+					<select name="job" id="province">
 						<option value="bs-as">Buenos Aires</option>
 						"
 						<option value="mza">Mendoza</option>
@@ -163,32 +183,44 @@
 						<option value="cht">Chubut</option>
 						<option value="sc">Santa Cruz</option>
 					</select>
-
-					<label for="fechas">Cuando prefieres viajar:</label>
-					<label for="fecha_inicio">
-						<span>Desde:</span>
-						<input type="date" id="fecha_inicio" name="fecha_inicio" />
-					</label>
-					<label for="fecha_fin">
-						<span>Hasta:</span>
-						<input type="date" id="fecha_fin" name="fecha_fin" />
-					</label>
-
-					<label for="transporte">Como prefieres viajar:</label>
-					<input type="radio" name="transporte" value="avión" />
-					<label for="transporte">En avión</label><br />
-					<input type="radio" name="transporte" value="omnibus" />
-					<label for="transporte">En omnibus</label><br />
-					<input type="radio" name="transporte" value="indistinto" />
-					<label for="transporte">Me es indistinto</label>
-					<hr />
+					<div class="groupFormContact" id="groupDate">
+						<label for="fechas" class="formLabelContact">Cuando prefieres viajar:</label>
+						<label for="fecha_inicio">
+							<span>Desde:</span>
+							<div class="groupInputContact">
+								<input type="date" id="fecha_inicio" name="fecha_inicio" class="formInputContact">
+							</div>
+						</label>			
+						<label for="fecha_fin">
+							<span>Hasta:</span>
+							<div class="groupInputContact">
+								<input type="date" id="fecha_fin" name="fecha_fin" class="formInputContact">
+							</div>
+						</label>
+						<p class="formInputContact-error"></p>
+					</div>
+					<div class="groupRadio">
+						<label for="transporte">Como prefieres viajar:</label>
+            			<input type="radio" name="transporte" value="avión" checked>
+						<label for="transporte">En avión</label><br>
+						<input type="radio" name="transporte" value="omnibus">
+						<label for="transporte">En omnibus</label><br>
+						<input type="radio" name="transporte" value="indistinto">
+						<label for="transporte">Me es indistinto</label>
+					</div>
+					
+					<label for="attachFile">Adjuntar foto del Documento o Pasaporte:</label>	
+					<input type="file" name="attachFile" id="attachFile">
+					<hr>
 
 					<label for="consulta">¿En que podemos ayudarte?</label>
 					<textarea name="comentario" id="consulta"></textarea>
 				</fieldset>
-
-				<button type="submit">ENVIAR</button>
-				<button type="reset">LIMPIAR</button>
+				<button type="submit" >ENVIAR</button>
+				<button type="reset" id="btn-clear">LIMPIAR</button>
+				<div class="groupFormContact groupFormContact-btn-send">
+					<p class="formMessContact-exito" id="formMessContact-exito">Formulario enviado exitosamente!</p>
+				</div>
 			</form>
 		</main>
 
@@ -237,7 +269,12 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
+		<!-- Iconos -->
+		<script
+		src="https://kit.fontawesome.com/164f532863.js" crossorigin="anonymous">
+		</script>
 		<!-- formulario de registro -->
 		<script src="../js/scriptForm.js"></script>
+		<script src="../js/scriptFormContact.js"></script>
 	</body>
 </html>

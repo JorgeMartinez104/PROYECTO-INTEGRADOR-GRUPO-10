@@ -26,6 +26,7 @@ form.queriesForm input[type='text'],
 form.queriesForm input[type='email'],
 form.queriesForm input[type='tel'],
 form.queriesForm input[type='date'],
+form.queriesForm input[type='file'],
 form.queriesForm textarea,
 form.queriesForm select {
 	border: 1px solid #181823;
@@ -44,6 +45,8 @@ form.queriesForm select {
 form.queriesForm input[type='radio'] {
 	margin: 0 4px 8px 16px;
 }
+
+
 
 form.queriesForm select {
 	padding: 6px;
@@ -107,10 +110,112 @@ form.queriesForm input:focus {
 	form.queriesForm {
 		max-width: 320px;
 	}
+
+	form.queriesForm input[type='text'],
+	form.queriesForm input[type='email'],
+	form.queriesForm input[type='tel'],
+	form.queriesForm input[type='date'],
+	form.queriesForm input[type='file'],
+	form.queriesForm textarea,
+	form.queriesForm select {
+		margin: 0 0.5rem;
+	}
+
 }
 
 @media screen and (min-width: 768px) {
 	form.queriesForm {
 		max-width: 768px;
 	}
+}
+
+/**/
+form.queriesForm input[type='date'] {
+	margin-left: 3px;
+}
+
+.groupRadio{
+	padding-bottom: 3%;
+}
+
+
+.groupFormContact-btn-send {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formMessContact-exito {
+	font-size: 16px;
+	color: #119200;
+	display: none;
+}
+
+.formMessContact-active {
+	display: block;
+}
+
+.formInputContact-error {
+	font-size: 0.8rem;
+	padding-left: 3%;
+	display: none;
+	color: rgb(184, 31, 31);
+	font-weight: bold;
+
+}
+
+.formInputContact-error-active {
+	display: block;
+}
+
+.groupInputContact{
+	position: relative;
+}
+
+/*
+.formValidateContact {
+	position: absolute;
+	right: 35px;
+	bottom: 35px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}*/
+
+.groupFormContact-ok .formValidateContact{
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.groupFormContact-wrong .formValidateContact{
+	color: #bb2929;
+	opacity: 1;
+}
+
+/*
+.dateValidateContact {
+	position: absolute;
+	left: 16.8em;
+	bottom: 35px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}*/
+
+.groupFormContact-ok .dateValidateContact{
+	color: rgb(30, 209, 45);
+	opacity: 1;
+}
+
+.groupFormContact-wrong .dateValidateContact{
+	color: rgb(187, 41, 41);
+	opacity: 1;
+}
+
+.inputError-active{
+	box-shadow: 2px 0px 10px rgb(187, 41, 41)
+}
+
+.inputError-inactive{
+	box-shadow: 2px 0px 10px rgb(30, 209, 45)
 }
