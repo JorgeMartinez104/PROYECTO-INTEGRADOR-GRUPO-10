@@ -22,6 +22,10 @@ form.queriesForm fieldset {
 	padding: 1rem;
 }
 
+form.queriesForm label {
+	margin-top: 1rem;
+}
+
 form.queriesForm input[type='text'],
 form.queriesForm input[type='email'],
 form.queriesForm input[type='tel'],
@@ -45,8 +49,6 @@ form.queriesForm select {
 form.queriesForm input[type='radio'] {
 	margin: 0 4px 8px 16px;
 }
-
-
 
 form.queriesForm select {
 	padding: 6px;
@@ -120,7 +122,6 @@ form.queriesForm input:focus {
 	form.queriesForm select {
 		margin: 0 0.5rem;
 	}
-
 }
 
 @media screen and (min-width: 768px) {
@@ -129,15 +130,13 @@ form.queriesForm input:focus {
 	}
 }
 
-/**/
 form.queriesForm input[type='date'] {
 	margin-left: 3px;
 }
 
-.groupRadio{
+.groupRadio {
 	padding-bottom: 3%;
 }
-
 
 .groupFormContact-btn-send {
 	display: flex;
@@ -161,14 +160,13 @@ form.queriesForm input[type='date'] {
 	display: none;
 	color: rgb(184, 31, 31);
 	font-weight: bold;
-
 }
 
 .formInputContact-error-active {
 	display: block;
 }
 
-.groupInputContact{
+.groupInputContact {
 	position: relative;
 }
 
@@ -182,12 +180,12 @@ form.queriesForm input[type='date'] {
 	opacity: 0;
 }*/
 
-.groupFormContact-ok .formValidateContact{
+.groupFormContact-ok .formValidateContact {
 	color: #1ed12d;
 	opacity: 1;
 }
 
-.groupFormContact-wrong .formValidateContact{
+.groupFormContact-wrong .formValidateContact {
 	color: #bb2929;
 	opacity: 1;
 }
@@ -202,20 +200,20 @@ form.queriesForm input[type='date'] {
 	opacity: 0;
 }*/
 
-.groupFormContact-ok .dateValidateContact{
+.groupFormContact-ok .dateValidateContact {
 	color: rgb(30, 209, 45);
 	opacity: 1;
 }
 
-.groupFormContact-wrong .dateValidateContact{
+.groupFormContact-wrong .dateValidateContact {
 	color: rgb(187, 41, 41);
 	opacity: 1;
 }
 
-.inputError-active{
-	box-shadow: 2px 0px 10px rgb(187, 41, 41)
+.inputError-active {
+	box-shadow: 2px 0px 10px rgb(187, 41, 41);
 }
 
-.inputError-inactive{
-	box-shadow: 2px 0px 10px rgb(30, 209, 45)
+.inputError-inactive {
+	box-shadow: 2px 0px 10px rgb(30, 209, 45);
 }

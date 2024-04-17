@@ -51,10 +51,10 @@
 
 .provinceDetail .provinciaSelectedContainer .activity {
 	text-align: center;
-	width: 65%;
-	height: 65%;
-	margin: 1rem;
-	padding: 2rem;
+	width: 95%;
+	height: auto;
+	margin: 0.5rem;
+	padding: 0.5rem;
 	background-color: #f0f0f0;
 	border: black 1px solid;
 	border-radius: 8px;
@@ -62,9 +62,9 @@
 }
 
 .provinceDetail .provinciaSelectedContainer .activity .activityImage {
-	width: 75%;
+	width: 85%;
 	height: auto;
-	margin: 1rem;
+	margin: 0.2rem;
 	border-radius: 8px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -77,4 +77,10 @@
 .provinceDetail .provinciaSelectedContainer .activity .activityTitle {
 	height: 30%;
 	margin: 1rem;
+}
+
+@media screen and (max-width: 300px) {
+	.provinceDetail .provinciaSelectedContainer .activity {
+		padding: 0rem;
+	}
 }
