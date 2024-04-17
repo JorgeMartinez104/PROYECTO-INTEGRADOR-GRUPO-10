@@ -48,6 +48,7 @@ main {
 }
 
 .testimonials-sub-title {
+	text-align: center;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -116,6 +117,12 @@ main {
 	border-radius: 8px;
 }
 
+@media screen and (max-width: 900px) {
+	.agency-images-container {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 700px) {
 	.testimonials-container {
 		display: block;
@@ -126,14 +133,6 @@ main {
 	}
 
 	.agency-history-container {
-		width: 70%;
-	}
-
-	.agency-images-container {
-		width: 70%;
-	}
-
-	.agency-images-container img {
 		width: 70%;
 	}
 }
