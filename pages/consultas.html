@@ -110,7 +110,7 @@
 		<main>
 			<form
 				class="queriesForm"
-				action="https://mailthis.to/inventado@gmail.com"
+				action="https://formspree.io/f/mvoedgve"
 				method="POST"
 				id="formContact"
 			>
@@ -120,18 +120,20 @@
 						<label for="nombre" class="formLabelContact">Nombre:</label>
 						<div class="groupInputContact">
 							<input
-							class="formInputContact"
-							type="text"
-							name="nombre"
-							id="nombre"
-							placeholder="*campo obligatorio"
+								class="formInputContact"
+								type="text"
+								name="nombre"
+								id="nombre"
+								placeholder="*campo obligatorio"
 							/>
 						</div>
 						<p class="formInputContact-error"></p>
 					</div>
 					<div class="groupFormContact" id="groupLastname">
-						<label for="apellido" class="formLabelContact">Apellido:</label>
-						<div class="groupInputContact">				
+						<label for="apellido" class="formLabelContact"
+							>Apellido:</label
+						>
+						<div class="groupInputContact">
 							<input
 								class="formInputContact"
 								type="text"
@@ -139,12 +141,14 @@
 								id="apellido"
 								placeholder="*campo obligatorio"
 							/>
-						</div>	
-						<p class="formInputContact-error"></p>			
+						</div>
+						<p class="formInputContact-error"></p>
 					</div>
 					<div class="groupFormContact" id="groupEmail">
-						<label for="mail" class="formLabelContact">Correo electrónico:</label>
-						<div class="groupInputContact">	
+						<label for="mail" class="formLabelContact"
+							>Correo electrónico:</label
+						>
+						<div class="groupInputContact">
 							<input
 								class="formInputContact"
 								type="email"
@@ -153,11 +157,13 @@
 								placeholder="*campo obligatorio"
 							/>
 						</div>
-						<p class="formInputContact-error"></p>						
+						<p class="formInputContact-error"></p>
 					</div>
 					<div class="groupFormContact" id="groupPhone">
-						<label for="telefono" class="formLabelContact">Teléfono:</label>
-						<div class="groupInputContact">	
+						<label for="telefono" class="formLabelContact"
+							>Teléfono:</label
+						>
+						<div class="groupInputContact">
 							<input
 								class="formInputContact"
 								type="tel"
@@ -166,7 +172,7 @@
 								placeholder="*campo obligatorio"
 							/>
 						</div>
-						<p class="formInputContact-error"></p>	
+						<p class="formInputContact-error"></p>
 					</div>
 					<label>Que provincia quieres conocer:</label>
 					<select name="job" id="province">
@@ -184,42 +190,58 @@
 						<option value="sc">Santa Cruz</option>
 					</select>
 					<div class="groupFormContact" id="groupDate">
-						<label for="fechas" class="formLabelContact">Cuando prefieres viajar:</label>
+						<label for="fechas" class="formLabelContact"
+							>Cuando prefieres viajar:</label
+						>
 						<label for="fecha_inicio">
 							<span>Desde:</span>
 							<div class="groupInputContact">
-								<input type="date" id="fecha_inicio" name="fecha_inicio" class="formInputContact">
+								<input
+									type="date"
+									id="fecha_inicio"
+									name="fecha_inicio"
+									class="formInputContact"
+								/>
 							</div>
-						</label>			
+						</label>
 						<label for="fecha_fin">
 							<span>Hasta:</span>
 							<div class="groupInputContact">
-								<input type="date" id="fecha_fin" name="fecha_fin" class="formInputContact">
+								<input
+									type="date"
+									id="fecha_fin"
+									name="fecha_fin"
+									class="formInputContact"
+								/>
 							</div>
 						</label>
 						<p class="formInputContact-error"></p>
 					</div>
 					<div class="groupRadio">
 						<label for="transporte">Como prefieres viajar:</label>
-            			<input type="radio" name="transporte" value="avión" checked>
-						<label for="transporte">En avión</label><br>
-						<input type="radio" name="transporte" value="omnibus">
-						<label for="transporte">En omnibus</label><br>
-						<input type="radio" name="transporte" value="indistinto">
+						<input type="radio" name="transporte" value="avión" checked />
+						<label for="transporte">En avión</label><br />
+						<input type="radio" name="transporte" value="omnibus" />
+						<label for="transporte">En omnibus</label><br />
+						<input type="radio" name="transporte" value="indistinto" />
 						<label for="transporte">Me es indistinto</label>
 					</div>
-					
-					<label for="attachFile">Adjuntar foto del Documento o Pasaporte:</label>	
-					<input type="file" name="attachFile" id="attachFile">
-					<hr>
+
+					<label for="attachFile"
+						>Adjuntar foto del Documento o Pasaporte:</label
+					>
+					<input type="file" name="attachFile" id="attachFile" />
+					<hr />
 
 					<label for="consulta">¿En que podemos ayudarte?</label>
 					<textarea name="comentario" id="consulta"></textarea>
 				</fieldset>
-				<button type="submit" >ENVIAR</button>
+				<button type="submit">ENVIAR</button>
 				<button type="reset" id="btn-clear">LIMPIAR</button>
 				<div class="groupFormContact groupFormContact-btn-send">
-					<p class="formMessContact-exito" id="formMessContact-exito">Formulario enviado exitosamente!</p>
+					<p class="formMessContact-exito" id="formMessContact-exito">
+						Formulario enviado exitosamente!
+					</p>
 				</div>
 			</form>
 		</main>
@@ -271,8 +293,9 @@
 		></script>
 		<!-- Iconos -->
 		<script
-		src="https://kit.fontawesome.com/164f532863.js" crossorigin="anonymous">
-		</script>
+			src="https://kit.fontawesome.com/164f532863.js"
+			crossorigin="anonymous"
+		></script>
 		<!-- formulario de registro -->
 		<script src="../js/scriptForm.js"></script>
 		<script src="../js/scriptFormContact.js"></script>
