@@ -170,16 +170,6 @@ form.queriesForm input[type='date'] {
 	position: relative;
 }
 
-/*
-.formValidateContact {
-	position: absolute;
-	right: 35px;
-	bottom: 35px;
-	z-index: 100;
-	font-size: 16px;
-	opacity: 0;
-}*/
-
 .groupFormContact-ok .formValidateContact {
 	color: #1ed12d;
 	opacity: 1;
@@ -189,16 +179,6 @@ form.queriesForm input[type='date'] {
 	color: #bb2929;
 	opacity: 1;
 }
-
-/*
-.dateValidateContact {
-	position: absolute;
-	left: 16.8em;
-	bottom: 35px;
-	z-index: 100;
-	font-size: 16px;
-	opacity: 0;
-}*/
 
 .groupFormContact-ok .dateValidateContact {
 	color: rgb(30, 209, 45);
