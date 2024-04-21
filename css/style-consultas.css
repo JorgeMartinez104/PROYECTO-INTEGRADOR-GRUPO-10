@@ -42,8 +42,7 @@ form.queriesForm select {
 	width: 95%;
 	background-color: #eff5f5;
 	color: #181823;
-	box-shadow: 1px 1px 3px #181823;
-	margin-bottom: 30px;
+	box-shadow: #181823 inset;
 }
 
 form.queriesForm input[type='radio'] {

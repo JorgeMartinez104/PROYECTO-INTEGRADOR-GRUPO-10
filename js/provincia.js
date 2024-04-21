@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <p class="activityDescription">${provinciaSeleccionada.detalle4}</p>
       </div>
       
-      <div class="activity">
-      <h4 class="activityPrice">Valor: ${provinciaSeleccionada.precio} USD</h4>
+      <div id="card-totalActivityPrice" class="activity">
+      <button id="btn-totalActivityPrice" class="btn-activityPrice">Valor: ${provinciaSeleccionada.precio} USD</button>
       </div>
     `;
 		//agregar a pagina principal
