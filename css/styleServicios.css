@@ -1,0 +1,71 @@
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seleccion {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.selector1 {
+  width: 160px;
+  margin-right: 20px;
+}
+
+.selector2 {
+  width: 100px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .card {
+    width: 300px; 
+    border-radius: 20px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px; 
+    background-color: rgba(255, 255, 255, 0.767);
+}
+
+.card:hover {
+    background-color: rgb(24, 214, 189);
+		color: #fff;
+		scale: 1.1;
+		transition: scale 1s;
+}
+  
+.card h3 {
+    font-size: 30px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.card .fecha {
+  font-size: 20px;
+}
+
+.card .temp-img {
+  width: 80px;
+}
+
+footer {
+  margin-top: 100px;
+}
