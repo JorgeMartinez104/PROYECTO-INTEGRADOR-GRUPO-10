@@ -4,8 +4,31 @@
 	box-sizing: border-box;
 }
 
-body {
+body, html {
 	background-color: #f0f0f0;
+	height: 100%;
+	margin: 0;
+}
+
+.avion {
+	width: 100px; 
+	height: 200px; 
+	background-image: url('../media/images/Avion.png'); 
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+	background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor */
+	background-color: transparent; 
+	position: absolute;
+	bottom: 0; /* Ajusta la posición vertical inicial del avión */
+	left: 0; /* Ajusta la posición horizontal inicial del avión */
+	animation: volar 10s linear infinite; /* Tiempo de animación */
+}
+
+@keyframes volar {
+	to {
+        transform: translate(calc(3vw - 50px), calc(10vh + 100%)); /* El avión se mueve diagonalmente hacia arriba y hacia la derecha */
+        left: calc(100vw - 100px); /* El avión llega de un margen al otro, considerando el tamaño del avión */
+        bottom: calc(100vh - 200px); /* El avión llega de un margen al otro, considerando el tamaño del avión */
+    }
 }
 
 /*index.html - main*/
