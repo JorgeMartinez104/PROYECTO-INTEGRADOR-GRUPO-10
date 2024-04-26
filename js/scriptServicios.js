@@ -24,7 +24,7 @@ $(function() {
 
 async function getWeather() {
     const city = $("#city").val();
-    const apiKey = process.env.OpenWeatherkey;
+    const apiKey = "3231ad7025f796ee95f1af937da55f76";
     const weatherInfoContainer = $("#cards");
     weatherInfoContainer.empty();
 
