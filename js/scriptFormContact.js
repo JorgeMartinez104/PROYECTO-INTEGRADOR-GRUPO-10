@@ -176,8 +176,8 @@ const validateField = (field, condition) => {
 		document
 			.getElementById(`group${field}`)
 			.classList.add('groupFormContact-ok');
-		var container = document.querySelector(`#group${field}`);
-		var matches = container.querySelectorAll('input');
+		let container = document.querySelector(`#group${field}`);
+		let matches = container.querySelectorAll('input');
 		matches.forEach(function (ele) {
 			ele.classList.add('inputError-inactive');
 			ele.classList.remove('inputError-active');
@@ -192,8 +192,8 @@ const validateField = (field, condition) => {
 		document
 			.getElementById(`group${field}`)
 			.classList.remove('groupFormContact-ok');
-		var container = document.querySelector(`#group${field}`);
-		var matches = container.querySelectorAll('input');
+		let container = document.querySelector(`#group${field}`);
+		let matches = container.querySelectorAll('input');
 		matches.forEach(function (ele) {
 			ele.classList.add('inputError-active');
 			ele.classList.remove('inputError-inactive');
@@ -213,7 +213,7 @@ function insertTextLastElement(classInput, mess) {
 const reset = (e) => {
 	e.preventDefault();
 
-	var elemRadio = radioTrans;
+	let elemRadio = radioTrans;
 
 	selectProv.value = 'bs-as';
 
@@ -221,7 +221,7 @@ const reset = (e) => {
 
 	elemRadio[0].checked = true;
 
-	for (var i = 1; i < elemRadio.length; i++) {
+	for (let i = 1; i < elemRadio.length; i++) {
 		elemRadio[i].checked = false;
 	}
 
@@ -245,10 +245,10 @@ const reset = (e) => {
 			case 'mail':
 			case 'fecha_inicio':
 			case 'fecha_fin':
-				var container = document.querySelector(
+				let container = document.querySelector(
 					`#group${fieldsGroup[attrName]}`
 				);
-				var matches = container.querySelectorAll('input');
+				let matches = container.querySelectorAll('input');
 				matches.forEach(function (ele) {
 					ele.classList.remove('inputError-active');
 					ele.classList.remove('inputError-inaactive');
