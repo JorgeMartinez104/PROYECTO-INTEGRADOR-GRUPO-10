@@ -18,6 +18,14 @@ form.queriesForm {
 	text-align: center;
 }
 
+form.queriesForm fieldset {
+	padding: 1rem;
+}
+
+form.queriesForm label {
+	margin-top: 1rem;
+}
+
 form.queriesForm input[type='text'],
 form.queriesForm input[type='email'],
 form.queriesForm input[type='tel'],
@@ -29,21 +37,17 @@ form.queriesForm select {
 	border-radius: 5px;
 	font-size: 16px;
 	height: auto;
-	margin: 0 1rem;
+	margin: 1rem auto;
 	padding: 1rem;
 	width: 95%;
 	background-color: #eff5f5;
 	color: #181823;
 	box-shadow: #181823 inset;
-	/*box-shadow: 1px 1px 3px #181823;*/
-	margin-bottom: 30px;
 }
 
 form.queriesForm input[type='radio'] {
-	margin: 0 4px 8px 16px; /*cambio*/
+	margin: 0 4px 8px 16px;
 }
-
-
 
 form.queriesForm select {
 	padding: 6px;
@@ -117,7 +121,6 @@ form.queriesForm input:focus {
 	form.queriesForm select {
 		margin: 0 0.5rem;
 	}
-
 }
 
 @media screen and (min-width: 768px) {
@@ -126,15 +129,13 @@ form.queriesForm input:focus {
 	}
 }
 
-/**/
 form.queriesForm input[type='date'] {
 	margin-left: 3px;
 }
 
-.groupRadio{
+.groupRadio {
 	padding-bottom: 3%;
 }
-
 
 .groupFormContact-btn-send {
 	display: flex;
@@ -158,53 +159,32 @@ form.queriesForm input[type='date'] {
 	display: none;
 	color: rgb(184, 31, 31);
 	font-weight: bold;
-
 }
 
 .formInputContact-error-active {
 	display: block;
 }
 
-.groupInputContact{
+.groupInputContact {
 	position: relative;
 }
 
-/*
-.formValidateContact {
-	position: absolute;
-	right: 35px;
-	bottom: 35px;
-	z-index: 100;
-	font-size: 16px;
-	opacity: 0;
-}*/
-
-.groupFormContact-ok .formValidateContact{
+.groupFormContact-ok .formValidateContact {
 	color: #1ed12d;
 	opacity: 1;
 }
 
-.groupFormContact-wrong .formValidateContact{
+.groupFormContact-wrong .formValidateContact {
 	color: #bb2929;
 	opacity: 1;
 }
 
-/*
-.dateValidateContact {
-	position: absolute;
-	left: 16.8em;
-	bottom: 35px;
-	z-index: 100;
-	font-size: 16px;
-	opacity: 0;
-}*/
-
-.groupFormContact-ok .dateValidateContact{
+.groupFormContact-ok .dateValidateContact {
 	color: rgb(30, 209, 45);
 	opacity: 1;
 }
 
-.groupFormContact-wrong .dateValidateContact{
+.groupFormContact-wrong .dateValidateContact {
 	color: rgb(187, 41, 41);
 	opacity: 1;
 }
