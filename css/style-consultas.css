@@ -35,6 +35,7 @@ form.queriesForm select {
 	background-color: #eff5f5;
 	color: #181823;
 	box-shadow: #181823 inset;
+	/*box-shadow: 1px 1px 3px #181823;*/
 	margin-bottom: 30px;
 }
 
@@ -208,10 +209,10 @@ form.queriesForm input[type='date'] {
 	opacity: 1;
 }
 
-.inputError-active{
-	box-shadow: 2px 0px 10px rgb(187, 41, 41)
+.inputError-active {
+	box-shadow: 2px 0px 10px rgb(187, 41, 41);
 }
 
-.inputError-inactive{
-	box-shadow: 2px 0px 10px rgb(30, 209, 45)
+.inputError-inactive {
+	box-shadow: 2px 0px 10px rgb(30, 209, 45);
 }
