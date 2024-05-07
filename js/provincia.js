@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <img class="activityImage" src="${provinciaSeleccionada.imagen1}" alt="${provinciaSeleccionada.descripcion1}">
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle1}</p>
+        <div>
+      <button class="btn-activityPrice">Valor: ${provinciaSeleccionada.precio1} USD</button>
+      </div>
       </div>
 
       <div class="activity">
@@ -34,6 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <img class="activityImage" src="${provinciaSeleccionada.imagen2}" alt="${provinciaSeleccionada.descripcion2}">
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle2}</p>
+        <div>
+      <button class="btn-activityPrice">Valor: ${provinciaSeleccionada.precio2} USD</button>
+      </div>
       </div>
 
       <div class="activity">
@@ -42,6 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <img class="activityImage" src="${provinciaSeleccionada.imagen3}" alt="${provinciaSeleccionada.descripcion3}">
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle3}</p>
+        <div>
+      <button class="btn-activityPrice">Valor: ${provinciaSeleccionada.precio3} USD</button>
+      </div>
       </div>
 
       <div class="activity">
@@ -50,10 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
         <img class="activityImage" src="${provinciaSeleccionada.imagen4}" alt="${provinciaSeleccionada.descripcion4}">
         </div>
         <p class="activityDescription">${provinciaSeleccionada.detalle4}</p>
+        <div>
+      <button class="btn-activityPrice">Valor: ${provinciaSeleccionada.precio4} USD</button>
+      </div>
       </div>
       
       <div id="card-totalActivityPrice" class="activity">
-      <button id="btn-totalActivityPrice" class="btn-activityPrice">Valor: ${provinciaSeleccionada.precio} USD</button>
+      <a href="consultas.html" class="btn-activityPrice">Consultanos por descuentos en paquetes</a>
       </div>
     `;
 		//agregar a pagina principal
