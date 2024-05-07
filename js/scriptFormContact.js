@@ -234,7 +234,6 @@ const reset = (e) => {
 		element.innerHTML = '';
 	});
 
-	console.log('entra a limpiar');
 	inputsForm.forEach((element) => {
 		let attrName = element.getAttribute('name');
 
