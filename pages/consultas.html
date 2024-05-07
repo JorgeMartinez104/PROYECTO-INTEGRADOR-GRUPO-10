@@ -181,54 +181,51 @@
 					<label>Que provincia quieres conocer:</label>
 					<select name="job" id="province">
 						<option value="bs-as">Buenos Aires</option>
-						"
 						<option value="mza">Mendoza</option>
-						"
 						<option value="cba">Cordoba</option>
-						"
 						<option value="t-fuego">Tierra del Fuego</option>
-						"
 						<option value="ms">Misiones</option>
 						<option value="st">Salta</option>
 						<option value="cht">Chubut</option>
 						<option value="sc">Santa Cruz</option>
 					</select>
 					<div class="groupFormContact" id="groupDate">
-						<label for="fechas" class="formLabelContact"
+						<label class="formLabelContact"
 							>Cuando prefieres viajar:</label
 						>
-						<label for="fecha_inicio">
-							<span>Desde:</span>
-							<div class="groupInputContact">
-								<input
-									type="date"
-									id="fecha_inicio"
-									name="fecha_inicio"
-									class="formInputContact"
-								/>
-							</div>
-						</label>
-						<label for="fecha_fin">
-							<span>Hasta:</span>
-							<div class="groupInputContact">
-								<input
-									type="date"
-									id="fecha_fin"
-									name="fecha_fin"
-									class="formInputContact"
-								/>
-							</div>
-						</label>
+						<div class="groupInputContact">
+							<label for="fecha_inicio">
+								<span>Desde:</span>
+									<input
+										type="date"
+										id="fecha_inicio"
+										name="fecha_inicio"
+										class="formInputContact"
+									/>
+							</label>
+						</div>
+						<div class="groupInputContact">
+							<label for="fecha_fin">
+								<span>Hasta:</span>
+									<input
+										type="date"
+										id="fecha_fin"
+										name="fecha_fin"
+										class="formInputContact"
+									/>
+								
+							</label>
+						</div>
 						<p class="formInputContact-error"></p>
 					</div>
 					<div class="groupRadio">
-						<label for="transporte">Como prefieres viajar:</label>
+						<label>Como prefieres viajar:</label>
 						<input type="radio" name="transporte" value="avión" checked />
-						<label for="transporte">En avión</label><br />
+						<label>En avión</label><br />
 						<input type="radio" name="transporte" value="omnibus" />
-						<label for="transporte">En omnibus</label><br />
+						<label>En omnibus</label><br />
 						<input type="radio" name="transporte" value="indistinto" />
-						<label for="transporte">Me es indistinto</label>
+						<label>Me es indistinto</label>
 					</div>
 
 					<label for="attachFile"
