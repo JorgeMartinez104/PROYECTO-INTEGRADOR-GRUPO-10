@@ -1,4 +1,4 @@
-# Charly Tours
+# Charly Tours :airplane:
 *Proyecto Integrador Frontend - Codo a Codo 4.0*
 
 ## Equipo de Desarrollo - Grupo 10
@@ -20,7 +20,11 @@ el envío de archivos,* por lo que se debe **tener en cuenta al hacer testeos**.
 Además tiene un apartado para consultar el clima actual y el pronóstico de hasta 5 días de la provincia a la que el usuario desee viajar, esto lo logramos con la `API de Open Weather`.
 En el footer se incluyo un mapa con la ubicación de la agencia, redes sociales y números de teléfono (todos ficticios), empleando `font-awesome` para los iconos y un `iframe` para el mapa.
 
-## Consignas solicitadas
+### :rocket: [Ir al sitio](https://jorgemartinez104.github.io/PROYECTO-INTEGRADOR-GRUPO-10/index.html)
+
+---
+
+### Consignas solicitadas
 - [x] El sitio web debe poseer al menos 4 páginas HTML.
 - [x] El sitio web debe tener un formulario de contacto, con al menos 5 campos que incluya (un checkbox o radiobutton), un select y una imagen,con validación realizada 
 mediante JavaScript para que los campos sean obligatorios.
